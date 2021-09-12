@@ -28,8 +28,8 @@ td{
 
 
 .Skill0{
-    background-color: red;
-    opacity: 60%;
+    background-color: #DC143C	;
+    /* opacity: 60%; */
     height: 10px;
     border-radius: 5px;
     animation-name: example;
@@ -38,7 +38,7 @@ td{
 }
 
 @keyframes example {
-  0%   {background-color:red; width: 5%; height: 10px; opacity: 60%;}
+  0%   {background-color:#DC143C; width: 5%; height: 10px;}
 }
 
 tr{
