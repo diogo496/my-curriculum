@@ -1,0 +1,36 @@
+.AboutContainer{
+    /* z-index: 200;
+    position: absolute; */
+    margin-top: 5px;
+    width: 100%
+}
+
+.AboutContainer h3{
+    font-size: 22px;
+    color: black;
+    text-decoration: underline 0.3vw solid #4682b4;
+    text-transform: uppercase;
+    text-align: center;
+    /* text-decoration: underline 0.3vw solid blue; */
+}
+
+.AboutContainer h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    margin-left: 5px;
+    text-decoration: underline;
+}
+
+.AboutText{
+    text-align: justify;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    width: 90%;
+}
+
+.AboutText, text{
+    color: black;
+    border: 0px;
+    font-size: 16px;
+}

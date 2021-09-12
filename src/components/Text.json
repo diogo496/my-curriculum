@@ -1,0 +1,546 @@
+[
+    [
+        {
+            "text":"Eng. Eletrotécnico e de Computadores"
+        },
+        {
+            "text":"Eletronical and Computer Engenieer"
+        }
+    ],
+    [
+        {
+            "text":"Sobre"
+        },
+        {
+            "text":"About me"
+        }
+    ],
+    [
+        {
+            "text":"Engenheiro Eletrotécnico e de Computadores de Portugal. Durante o último ano trabalhei na NOS maioritariamente em funções de full stack developer e Arquitetura/desenho de soluções no IT, no desenvolvimento de uma plataforma para IT Governance e gestão de dados. Mais recentemente estou a trabalhar como software developer no contexto de automação de operações e processos de negócio. Os meus interesses consistem em, technologias de desenvolvimento de software para automação e facilitar tarefas do dia a dia, produção e distribuição de energia, um gosto que adquiri maioritariamente durante o meu mestrado e Tese onde tive a opurtunidade de explorar os temas de Redes inteligentes, flexbilidades, recursos renovaveis, transito de energia etc,. Tenho tambem a paixão por a industria automóvel e gosto de praticar desportos e manter-me ativo. Por último, no decorrer dos meus anos de estudante trabalhei como explicador de matemática, um dos trabalhos mais recompensadores que já fiz."
+        },
+        {
+            "text":"Eletronical and Computer engineer from Portugal. During the past year I worked at NOS mainly as a full stack developer and solutions Architect in IT, in the development of a web platform for IT Governance and Data management. Most recently I am working as a software developer for automation and business processes. My main interests at the moment consist in, software development technologies and tools for automation and making everyday tasks easier, the field of energy production and distribution which I acquired mostly during my masters degree and thesis where I had the opportunity to dig deep in the subjects of smart grids, flexibility, renewable resources, power flow and so on. Also I have a passion for the automotive industry and like to stay active and practice sports. Last but not least during my student years I worked as a math teacher and it was very rewarding to teach and empower others."
+        }
+    ],
+    [
+        {
+            "text":"Informação básica"
+        },
+        {
+            "text":"Basic information"
+        }
+    ],
+    [
+        {
+            "text":"Português"
+        },
+        {
+            "text":"Portuguese"
+        }
+    ],
+    [
+        {
+            "text":"Interesses"
+        },
+        {
+            "text":"Interests"
+        }
+    ],
+    [
+        {
+            "text":"Desenvolvimento de software"
+        },
+        {
+            "text":"Software development"
+        }
+    ],
+    [
+        {
+            "text":"Arquitetura técnica"
+        },
+        {
+            "text":"Technical Architecture"
+        }
+    ],
+    [
+        {
+            "text":"Redes inteligentes"
+        },
+        {
+            "text":"Smart grids"
+        }
+    ],
+    [
+        {
+            "text":"Recursos renováveis"
+        },
+        {
+            "text":"Renewable resources"
+        }
+    ],
+    [
+        {
+            "text":"Competências"
+        },
+        {
+            "text":"Skills"
+        }
+    ],
+    [
+        {
+            "text":"Tecnologias e softwares"
+        },
+        {
+            "text":"Softwares and Technologies"
+        }
+    ],
+    [
+        {
+            "text":"Desenvolvimento Full Stack"
+        },
+        {
+            "text":"Fullstack Development"
+        },
+        {
+            "level":"60%"
+        }
+    ],
+    [
+        {
+            "text":"Node js (Express, Nest js)"
+        },
+        {
+            "text":"Node js (Express, Nest js)"
+        },
+        {
+            "level":"60%"
+        }
+    ],
+    [
+        {
+            "text":"Java Spring Boot"
+        },
+        {
+            "text":"Java Spring Boot"
+        },
+        {
+            "level":"30%"
+        }
+
+    ],
+    [
+        {
+            "text":"Flask (Python)"
+        },
+        {
+            "text":"Flask (Python)"
+        },
+        {
+            "level":"30%"
+        }
+    ],
+    [
+        {
+            "text":"Javascript (React), HTML, CSS"
+        },
+        {
+            "text":"Javascript (React), HTML, CSS"
+        },
+        {
+            "level":"90%"
+        }
+    ],
+    [
+        {
+            "text":"Python"
+        },
+        {
+            "text":"Python"
+        },
+        {
+            "level":"30%"
+        }
+    ],
+    [
+        {
+            "text":"C, C++"
+        },
+        {
+            "text":"C, C++"
+        },
+        {
+            "level":"30%"
+        }
+    ],
+    [
+        {
+            "text":"API Testing: Postman, Swagger"
+        },
+        {
+            "text":"API Testing: Postman, Swagger"
+        },
+        {
+            "level":"80%"
+        }
+    ],
+    [
+        {
+            "text":"Message queueing: Pulsar, Kafka, Rabbit MQ"
+        },
+        {
+            "text":"Message queueing: Pulsar, Kafka, Rabbit MQ"
+        },
+        {
+            "level":"20%"
+        }
+    ],
+    [
+        {
+            "text":"SQL"
+        },
+        {
+            "text":"SQL"
+        },
+        {
+            "level":"50%"
+        }
+    ],
+    [
+        {
+            "text":"NoSQL (MongoDB, Firebase)"
+        },
+        {
+            "text":"NoSQL (MongoDB, Firebase)"
+        },
+        {
+            "level":"50%"
+        }
+    ],
+    [
+        {
+            "text":"Kubernetes, Docker & Jenkins"
+        },
+        {
+            "text":"Kubernetes, Docker & Jenkins"
+        },
+        {
+            "level":"50%"
+        }
+    ],
+    [
+        {
+            "text":"Git, Confluence & Jira"
+        },
+        {
+            "text":"Git, Confluence & Jira"
+        },
+        {
+            "level":"50%"
+        }
+    ],
+    [
+        {
+            "text":"PSS/E (Siemens)"
+        },
+        {
+            "text":"PSS/E (Siemens)"
+        },
+        {
+            "level":"30%"
+        }
+    ],
+    [
+        {
+            "text":"Pessoais"
+        },
+        {
+            "text":"Personal"
+        }
+    ],
+    [
+        {
+            "text":"Trabalho em equipa"
+        },
+        {
+            "text":"Team work"
+        },
+        {
+            "level":"80%"
+        }
+    ],
+    [
+        {
+            "text":"Flexibilidade e adaptação a novos desafios e ambientes"
+        },
+        {
+            "text":"Flexibility and adaption to new environments and challenges"
+        },
+        {
+            "level":"90%"
+        }
+    ],
+    [
+        {
+            "text":"Capacidade de comunicação"
+        },
+        {
+            "text":"Communication skills"
+        },
+        {
+            "level":"90%"
+        }
+    ],
+    [
+        {
+            "text":"Criatividade"
+        },
+        {
+            "text":"Creativity"
+        },
+        {
+            "level":"95%"
+        }
+    ],
+    [
+        {
+            "text":"Português"
+        },
+        {
+            "text":"Portuguese"
+        },
+        {
+            "level":"100%"
+        }
+    ],
+    [
+        {
+            "text":"Inglês"
+        },
+        {
+            "text":"English"
+        },
+        {
+            "level":"70%"
+        }
+    ],
+    [
+        {
+            "text":"Experiência"
+        },
+        {
+            "text":"Experience"
+        }
+    ],
+    [
+        {
+            "text":"NOS SGPS - NOS alfa TECH trainee (2020 Out)"
+        },
+        {
+            "text":"NOS SGPS - NOS alfa TECH trainee (2020 Oct)"
+        }
+    ],
+    [
+        {
+            "text":"- Desenvolvimento de software para automação e processos de negócio."
+        },
+        {
+            "text":"- Software development for automation and business processes."
+        }
+    ],
+    [
+        {
+            "text":"- Tecnologias utilizadas: Node js (Nest js); MongoDB, Kubernetes, CI/CD, Postman."
+        },
+        {
+            "text":"- Technologies used: Node js (Nest js); MongoDB, Kubernetes, CI/CD, Postman."
+        }
+    ],
+    [
+        {
+            "text":"- Desenvolvimento de plataforma para Data/IT governance."
+        },
+        {
+            "text":"- Development of Data/IT governance platform."
+        }
+    ],
+    [
+        {
+            "text":"- Contacto com: microsserviços, webServices, APIs, message queueing, API management (Apigee)."
+        },
+        {
+            "text":"- Contact with: Microsservices, webServices, APIs, message queueing, API management ( Apigee)."
+        }
+    ],
+    [
+        {
+            "text":"- Análise/levantamento de requisitos;"
+        },
+        {
+            "text":"- Functional analysis/requirements gathering."
+        }
+    ],
+    [
+        {
+            "text":"- Arquitetura/desenho de solução e modelo de dados (MySQL);"
+        },
+        {
+            "text":"- Architecture/solutions design & data model (MySQL)."
+        }
+    ],
+    [
+        {
+            "text":"- Fullstack developer: Java Spring Boot, React js."
+        },
+        {
+            "text":"- Fullstack developer: Java Spring Boot, React js"
+        }
+    ],
+    [
+        {
+            "text":"Explicador"
+        },
+        {
+            "text":"teacher"
+        }
+    ],
+    [
+        {
+            "text":"Explicador de matemática"
+        },
+        {
+            "text":"Math teacher"
+        }
+    ],
+    [
+        {
+            "text":"- Acompanhamento e preparação de alunos de Ensino secundário de Matemática"
+        },
+        {
+            "text":"- Math teacher to high school students preparing for exam"
+        }
+    ],
+    [
+        {
+            "text":"Prelúdio do saber (2019 Out - 2020 Mar)"
+        },
+        {
+            "text":"Prelúdio do saber (2019 Oct - 2020 Mar"
+        }
+    ],
+    [
+        {
+            "text":"- Acompanhamento e preparação de alunos de Ensino básico de Matemática e Fisíca e Química."
+        },
+        {
+            "text":"- Math, Physics and Chemistry teacher to middle school students."
+        }
+    ],
+    [
+        {
+            "text":"EDP Distribuição"
+        },
+        {
+            "text":"EDP Distribuição"
+        }
+    ],
+    [
+        {
+            "text":"Estágio (2018 Jan-Mar)"
+        },
+        {
+            "text":"Internship (2018 Jan-Mar)"
+        }
+    ],
+    [
+        {
+            "text":"- Testes/análise funcional de aplicação móvel."
+        },
+        {
+            "text":"- Testing/Functional analysis to mobile app."
+        }
+    ],
+    [
+        {
+            "text":"- Data analytics com Power BI."
+        },
+        {
+            "text":"- Data analytics with Power BI."
+        }
+    ],
+    [
+        {
+            "text":"- Walkthrough pelas direções de Despacho e condução e Tecnologia e inovação."
+        },
+        {
+            "text":"- Walkthrough of the departments <Despacho e Condução> and Technology and Innovation."
+        }
+    ],
+    [
+        {
+            "text":"- Explicador de Matemática"
+        },
+        {
+            "text":"Math teacher"
+        }
+    ],
+    [
+        {
+            "text":" 2016-2018 / 2020 Mar-Set"
+        },
+        {
+            "text":" 2016-2018 / 2020 Mar - Sept"
+        }
+    ],
+    [
+        {
+            "text":"- Acompanhamento e preparação de alunos de Ensino secundário de matemática."
+        },
+        {
+            "text":"Math teacher to high school students."
+        }
+    ],
+    [
+        {
+            "text":"Educação"
+        },
+        {
+            "text":"Education"
+        }
+    ],
+    [
+        {
+            "text":"Mestrado Integrado em Engenharia Eletrotécnica e de Computadores FCT-UNL (2015-2020)"
+        },
+        {
+            "text":"Master’s degree in Eletronical and Computer Engenieering at FCT-UNL (2015-2020)"
+        }
+    ],
+    [
+        {
+            "text":"Especialização nas áreas de sistemas robóticos, sistemas de energia, e eletrónica de reduzida tensão."
+            
+        },
+        {
+            "text":"Eletronical and computer Engenieering with emphasys in the fields of robotic systems, energy systems and low voltage eletronics."
+        }
+    ],
+    [
+        {
+            "text":"Tese de mestrado"
+        },
+        {
+            "text":"Master thesis"
+        }
+    ],
+    [
+        {
+            "text":"Determinação e valorização da região de flexibilidade na interface TSO-DSO. Conhecimentos adquiridos em Rede inteligentes, descentralização, recursos flexíveis, analise de power flow, planeamento operacional, software PSS/E e Python."
+        },
+        {
+            "text":"Valuing and Determination of the TSO-DSO interface flexibility region. Knowledge acquired in Smart grids, distributed networks, flexible and renewable resources, power flow analysis, operational planning, PSS/E software and Python."
+        }
+    ]
+
+    
+]

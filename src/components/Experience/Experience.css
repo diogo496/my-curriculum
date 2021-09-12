@@ -1,0 +1,82 @@
+.ExperienceContainer{
+    /* z-index: 200;
+    position: absolute;
+    margin-top: 252%; */
+    width: 90%;
+}
+
+.ExperienceContainer h3{
+    font-size: 22px;
+    color: black;
+    text-decoration: underline 0.3vw solid #4682b4;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.leftCard{
+    border: 1px solid grey;
+    width: 40vw;
+    height:fit-content;
+    margin-left: 5vw;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 5px;
+    animation-duration: 4s;
+    animation-name: cardLeft;
+    animation-iteration-count: 1;
+}
+
+@keyframes cardLeft{
+    0% {margin-left: 1vw;}
+}
+
+h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 13px;
+    margin-left: 5px;
+}
+
+text{
+    margin-left: 5px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.rightCard{
+    border: 1px solid grey;
+    width: 40vw;
+    height:fit-content;
+    margin-left: 52vw;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 5px;
+    animation-duration: 4s;
+    animation-name: cardRight;
+    animation-iteration-count: 1;
+}
+
+@keyframes cardRight{
+    0% {margin-left: 57vw;}
+}
+
+.toTheLeft{
+    border: 1px solid grey;
+    width: 90%;
+    height:fit-content;
+    margin-left: 10%;
+    border-radius: 10px;
+    text-align: left;
+    padding: 5px 5px;
+    animation-duration: 4s;
+    animation-name: cardLeft;
+    animation-iteration-count: 1;
+    margin-top: 10px;
+}

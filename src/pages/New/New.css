@@ -1,0 +1,77 @@
+.selectLanguageToolBar{
+    background-color:#181818;
+    color:white;
+    font-weight:300;
+    height:25px;
+    font-size:14px;
+    vertical-align: middle;
+}
+
+.flagPort{
+    float: right;
+    height: 24px;
+    padding-top: 0px;
+}
+
+.flagEng{
+    height: 14px;
+    float: right;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.flagEng:hover, .flagPort:hover{
+    cursor: pointer;
+}
+
+.MenuContainer{
+    width: 100%;
+    /* border-bottom: 1px solid grey;
+    border-top: 1px solid grey; */
+    border:0px;
+}
+
+.MenuItem{
+    display: inline-block;
+    width: 19%;
+    border-right: 1px solid darkgrey;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    height:30;
+    margin-top: 5px;
+    font-size: 16px;
+    word-break: break-all;
+
+}
+
+.MenuLastItem{
+    display: inline-block;
+    width: 19%;
+    border-right: 0px solid darkgrey;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 16px;
+    word-break: break-all;
+
+}
+
+.MenuItem:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    height: 30px;
+    vertical-align: middle;
+}
+.MenuLastItem:hover{
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    height: 30px;
+    vertical-align: middle;
+
+}

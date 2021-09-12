@@ -1,0 +1,46 @@
+.TechSkillsContainer{
+    /* z-index: 200;
+    position: absolute;
+    margin-top: 155%; */
+    width: 100%;
+}
+
+.TechSkillsContainer h3{
+  font-size: 22px;
+  color: black;
+  text-decoration: underline 0.3vw solid #4682b4;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.TechSkillsContainer h4{
+    font-size: 22px;
+    text-decoration: underline 0.3vw solid black;
+}
+
+td{
+  font-size: 16px;
+} 
+.skillNameColumn{
+  width: 50%;
+}
+
+
+
+.Skill0{
+    background-color: red;
+    opacity: 60%;
+    height: 10px;
+    border-radius: 5px;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+}
+
+@keyframes example {
+  0%   {background-color:red; width: 5%; height: 10px; opacity: 60%;}
+}
+
+tr{
+    height: 35px;
+}

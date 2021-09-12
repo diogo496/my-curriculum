@@ -1,0 +1,24 @@
+.selectLanguage {
+    width: 50px;
+    position: absolute;
+    z-index: 100;
+    right: 10vw;
+}
+
+.flagPort{
+    float: right;
+    height: 16px;
+    padding-top: 1px;
+}
+
+.flagEng{
+    height: 10px;
+    float: right;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.flagEng:hover, .flagPort:hover{
+    cursor: pointer;
+}

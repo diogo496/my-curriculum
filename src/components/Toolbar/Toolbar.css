@@ -1,0 +1,45 @@
+.container{
+    position: relative;
+    width: 100%;
+    background-color: grey;
+}
+
+.image {
+    position: absolute;
+    align-items: center;
+    /* height: 60vh; */
+    width: 100%;
+    left:0;
+    right:0;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+
+.myName {
+    font-size: 6vw;
+    position: absolute;
+    color: white;
+    z-index: 100;
+    margin-left: -44%;
+    margin-top: 10%;
+    font-family: 'Dosis', sans-serif;    
+    
+
+}
+
+
+
+
+
+
+.textProfession{
+    position:absolute;
+    z-index:100;
+    color:white;
+    font-size:3vw;
+    width:40%;
+    margin-left:5%;
+    margin-top:25%;
+    text-align:left;
+}
