@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/my-curriculum/static/css/main.e4ddeba4.chunk.css",
+    "main.css": "/my-curriculum/static/css/main.6bbfeb25.chunk.css",
     "main.js": "/my-curriculum/static/js/main.b98746af.chunk.js",
     "main.js.map": "/my-curriculum/static/js/main.b98746af.chunk.js.map",
     "runtime-main.js": "/my-curriculum/static/js/runtime-main.6b822b28.js",
@@ -10,7 +10,7 @@
     "static/js/3.df7ae698.chunk.js": "/my-curriculum/static/js/3.df7ae698.chunk.js",
     "static/js/3.df7ae698.chunk.js.map": "/my-curriculum/static/js/3.df7ae698.chunk.js.map",
     "index.html": "/my-curriculum/index.html",
-    "static/css/main.e4ddeba4.chunk.css.map": "/my-curriculum/static/css/main.e4ddeba4.chunk.css.map",
+    "static/css/main.6bbfeb25.chunk.css.map": "/my-curriculum/static/css/main.6bbfeb25.chunk.css.map",
     "static/js/2.366c1c8c.chunk.js.LICENSE.txt": "/my-curriculum/static/js/2.366c1c8c.chunk.js.LICENSE.txt",
     "static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf",
     "static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.6b822b28.js",
     "static/js/2.366c1c8c.chunk.js",
-    "static/css/main.e4ddeba4.chunk.css",
+    "static/css/main.6bbfeb25.chunk.css",
     "static/js/main.b98746af.chunk.js"
   ]
 }
