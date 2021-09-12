@@ -30,35 +30,36 @@ const BasicInformation = (props, ref) => {
     return (
         <div className="BasicInformationContainer" ref={heightRef}>
             <h3 ref={ref}>{TEXT[3][props.language].text}</h3>
-
-            <div style={{marginBottom:"7px", fontSize:"18px"}}>
-                <MdPerson size={"3vw"} style={{marginRight:"15px" , verticalAlign:"middle"}}/>
-                Diogo Reis
-            </div>
-            <div className="ExternalURL" style={{marginBottom:"7px"}} onClick={goToLinkedin}>
-                <AiFillLinkedin size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/> 
-                https://www.linkedin.com/in/diogo-reis-4s96/
-                
-            </div>
-            <div style={{marginBottom:"7px", fontSize:"18px"}}>
-                <SiGmail size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
-                diogoreis496@gmail.com
-            </div>
-            <div style={{marginBottom:"7px", fontSize:"18px"}}>
-                <GoLocation size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
-                Portugal, Seixal - Corroios
-            </div>
-            <div style={{marginBottom:"7px", fontSize:"18px"}}>
-                <BiWorld size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
-                <span>{TEXT[4][props.language].text}</span>
-            </div>
-            <div style={{marginBottom:"7px", fontSize:"18px"}}>
-                <AiFillFilePdf size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
-                {props.language ? 
-                <a href={myPDFPort} style={{textDecoration:"none"}} download="My_CV_eng.pdf">Download CV </a>
-                : 
-                <a href={myPDFEng} style={{textDecoration:"none"}} download="My_CV_port.pdf">Descarregar CV </a>
-                }
+            <div className="BasicInformationContent">
+                <div style={{marginBottom:"7px", fontSize:"18px"}}>
+                    <MdPerson size={"3vw"} style={{marginRight:"15px" , verticalAlign:"middle"}}/>
+                    Diogo Reis
+                </div>
+                <div className="ExternalURL" style={{marginBottom:"7px"}} onClick={goToLinkedin}>
+                    <AiFillLinkedin size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/> 
+                    https://www.linkedin.com/in/diogo-reis-4s96/
+                    
+                </div>
+                <div style={{marginBottom:"7px", fontSize:"18px"}}>
+                    <SiGmail size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
+                    diogoreis496@gmail.com
+                </div>
+                <div style={{marginBottom:"7px", fontSize:"18px"}}>
+                    <GoLocation size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
+                    Portugal, Seixal - Corroios
+                </div>
+                <div style={{marginBottom:"7px", fontSize:"18px"}}>
+                    <BiWorld size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
+                    <span>{TEXT[4][props.language].text}</span>
+                </div>
+                <div style={{marginBottom:"7px", fontSize:"18px"}}>
+                    <AiFillFilePdf size={"3vw"} style={{marginRight:"15px", verticalAlign:"middle"}}/>
+                    {props.language ? 
+                    <a href={myPDFPort} style={{textDecoration:"none"}} download="My_CV_eng.pdf">Download CV </a>
+                    : 
+                    <a href={myPDFEng} style={{textDecoration:"none"}} download="My_CV_port.pdf">Descarregar CV </a>
+                    }
+                </div>
             </div>
             
         </div>

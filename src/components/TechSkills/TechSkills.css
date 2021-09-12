@@ -28,7 +28,7 @@ td{
 
 
 .Skill0{
-    background-color: #DC143C	;
+    background-color: rgba(220, 20, 60, 0.8)	;
     /* opacity: 60%; */
     height: 10px;
     border-radius: 5px;
@@ -38,7 +38,7 @@ td{
 }
 
 @keyframes example {
-  0%   {background-color:#DC143C; width: 5%; height: 10px;}
+  0%   {background-color:rgba(220, 20, 60, 0.8); width: 5%; height: 10px;}
 }
 
 tr{

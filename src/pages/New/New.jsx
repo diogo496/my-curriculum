@@ -48,8 +48,14 @@ const New = () => {
             setIsMobile(false)
         }else{
             setIsMobile(window.innerWidth)
+            if(window.innerWidth > 1100){
+                setImageHeight(430)
+            }else{
+                setImageHeight(270)
+            }
         }
         console.log("innerWidth=>",window.innerWidth)
+        
     }
 
     const getImageHeight = (height) => {
@@ -69,7 +75,7 @@ const New = () => {
         }else if(isMobile >720){
             setImageHeight(270)
         }
-    })
+    },[window.innerWidth])
 
     return (
         <div style={{overflowX:"hidden"}}>
