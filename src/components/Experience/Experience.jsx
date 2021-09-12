@@ -16,25 +16,25 @@ const Experience = (props, ref) => {
     const refEndExperience = useRef(null)
 
     const listenScrollEvent = (event) => {
-        if( window.scrollY <1500){
+        if( window.scrollY <1700){
             setCardOne(false)
             setCardTwo(false)
             setCardThree(false)
             setCardFour(false)
         }
-        if (window.scrollY > 1500) {
+        if (window.scrollY > 1700) {
             setCardOne(true)
         }
-        if (window.scrollY > 1700) {
+        if (window.scrollY > 2000) {
             setCardTwo(true)
         }
-        if( window.scrollY > 1900) {
+        if( window.scrollY > 2200) {
             setCardThree(true)
         }
-        if( window.scrollY > 2100){
+        if( window.scrollY > 2400){
             setCardFour(true)
         }
-        // console.log(window.scrollY)
+        console.log(window.scrollY)
       }
       
     useEffect(() => {
@@ -60,11 +60,9 @@ const Experience = (props, ref) => {
     return (
         <div className="ExperienceContainer" >
             <div ref={refBeginExperience}></div>
-
-            <div>
-                <h3 ref={ref} >{TEXT[33][props.language].text}</h3>
+            {/* <div>
+                <h3  >{TEXT[33][props.language].text}</h3>
                 <hr width="1" size={props.isMobile>1000 ? "700": props.isMobile>850 ? "750" : props.isMobile>720? "800" : window.innerWidth>415 ? "700" :"850"} style={{position:"absolute", zIndex:"200", marginTop:"0%", color:"black", marginLeft:marginLeft, width:"0.5%", backgroundColor:"rgb(48,48,48,0.5)", borderRadius:"2px"}}></hr>
-                {/* <div className="dot" ></div> */}
                 {cardOne ? 
                 <div className={classNameLeft}>
                     <h4>{TEXT[34][props.language].text}</h4>
@@ -97,7 +95,7 @@ const Experience = (props, ref) => {
                 : null}
                 {cardThree ?
                 <div className={classNameLeft}>
-                <h4>{TEXT[47][props.language].text}</h4>
+                    <h4>{TEXT[47][props.language].text}</h4>
                     <h5>{TEXT[48][props.language].text}</h5>
                     <text>{TEXT[49][props.language].text}</text>
                     <br/>
@@ -114,12 +112,63 @@ const Experience = (props, ref) => {
                 </div>
                 : null}
 
+            </div> */}
+            <h3  >{TEXT[33][props.language].text}</h3>
+            <div class="timeline" ref={ref}>
+                { cardOne ?
+                <div class="container left">
+                    <div class="content">
+                        <h4>{TEXT[34][props.language].text}</h4>
+                        <h5>Operations - Automation {`&`} Tools</h5>
+                        <p>{TEXT[35][props.language].text}</p>
+                        <p>{TEXT[36][props.language].text}</p>
+                        <h5>Technical Architecture/Digital enablement</h5>
+                        <p>{TEXT[37][props.language].text}</p>
+                        <p>{TEXT[38][props.language].text}</p>
+                        <p>{TEXT[39][props.language].text}</p>
+                        <p>{TEXT[40][props.language].text}</p>
+                        <p>{TEXT[41][props.language].text}</p>
+                    </div>
+                </div>
+                : null}
+                {cardTwo ?
+                <div class="container right">
+                    <div class="content">
+                        <h4>{TEXT[42][props.language].text}</h4>
+                        <h5>{TEXT[43][props.language].text}</h5>
+                        <p>{TEXT[44][props.language].text}</p>
+                        <h5>{TEXT[45][props.language].text}</h5>
+                        <p>{TEXT[46][props.language].text}</p>
+                    </div>
+                </div>
+                : null }
+                {cardThree ? 
+                <div class="container left">
+                    <div class="content">
+                    <h4>{TEXT[47][props.language].text}</h4>
+                    <h5>{TEXT[48][props.language].text}</h5>
+                    <p>{TEXT[49][props.language].text}</p>
+                    <p>{TEXT[50][props.language].text}</p>
+                    <p>{TEXT[51][props.language].text}</p>
+                    </div>
+                </div>
+                : null }
+                {cardFour ? 
+                <div class="container right">
+                    <div class="content">
+                        <h4>{TEXT[52][props.language].text}</h4>
+                        <h5>{TEXT[53][props.language].text}</h5>
+                        <p>{TEXT[54][props.language].text}</p>
+                    </div>
+                </div>
+                : null}
             </div>
             <div style={{backgroundColor:"#181818", color:"white", fontWeight:"300", height:"30px", fontSize:"16px", textAlign:"center", width:"120%", marginTop:"10px", verticalAlign:"middle"}}>
                 CV powered by React JS
                 <FaReact style={{paddingLeft:"5px", verticalAlign:"middle"}} size={"18px"}/>
             </div>
             <div ref={refEndExperience}></div>
+
         </div>
     )
 }

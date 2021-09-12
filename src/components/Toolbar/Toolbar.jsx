@@ -24,7 +24,7 @@ const Toolbar = (props) => {
     })
     
     return (
-        <div className="container">
+        <div className="containerTooBar">
             <img ref={ref} className="image" src={image} alt="firstImage"></img>
             <text className="myName">Diogo Reis</text>
             <div className="textProfession">
