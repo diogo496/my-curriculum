@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/my-curriculum/static/css/main.8a54a050.chunk.css",
-    "main.js": "/my-curriculum/static/js/main.3150fe13.chunk.js",
-    "main.js.map": "/my-curriculum/static/js/main.3150fe13.chunk.js.map",
-    "runtime-main.js": "/my-curriculum/static/js/runtime-main.6b822b28.js",
-    "runtime-main.js.map": "/my-curriculum/static/js/runtime-main.6b822b28.js.map",
-    "static/js/2.366c1c8c.chunk.js": "/my-curriculum/static/js/2.366c1c8c.chunk.js",
-    "static/js/2.366c1c8c.chunk.js.map": "/my-curriculum/static/js/2.366c1c8c.chunk.js.map",
-    "static/js/3.df7ae698.chunk.js": "/my-curriculum/static/js/3.df7ae698.chunk.js",
-    "static/js/3.df7ae698.chunk.js.map": "/my-curriculum/static/js/3.df7ae698.chunk.js.map",
+    "main.css": "/my-curriculum/static/css/main.02cdc868.chunk.css",
+    "main.js": "/my-curriculum/static/js/main.786a0dfb.chunk.js",
+    "main.js.map": "/my-curriculum/static/js/main.786a0dfb.chunk.js.map",
+    "runtime-main.js": "/my-curriculum/static/js/runtime-main.1233fc4e.js",
+    "runtime-main.js.map": "/my-curriculum/static/js/runtime-main.1233fc4e.js.map",
+    "static/js/2.0237b99e.chunk.js": "/my-curriculum/static/js/2.0237b99e.chunk.js",
+    "static/js/2.0237b99e.chunk.js.map": "/my-curriculum/static/js/2.0237b99e.chunk.js.map",
+    "static/js/3.41759d35.chunk.js": "/my-curriculum/static/js/3.41759d35.chunk.js",
+    "static/js/3.41759d35.chunk.js.map": "/my-curriculum/static/js/3.41759d35.chunk.js.map",
     "index.html": "/my-curriculum/index.html",
-    "static/css/main.8a54a050.chunk.css.map": "/my-curriculum/static/css/main.8a54a050.chunk.css.map",
-    "static/js/2.366c1c8c.chunk.js.LICENSE.txt": "/my-curriculum/static/js/2.366c1c8c.chunk.js.LICENSE.txt",
+    "static/css/main.02cdc868.chunk.css.map": "/my-curriculum/static/css/main.02cdc868.chunk.css.map",
+    "static/js/2.0237b99e.chunk.js.LICENSE.txt": "/my-curriculum/static/js/2.0237b99e.chunk.js.LICENSE.txt",
     "static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf",
     "static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf",
     "static/media/englishFlag.9a270616.png": "/my-curriculum/static/media/englishFlag.9a270616.png",
     "static/media/foto1.3d21a4e9.png": "/my-curriculum/static/media/foto1.3d21a4e9.png",
     "static/media/portugueseFlag.da29acac.png": "/my-curriculum/static/media/portugueseFlag.da29acac.png",
     "static/media/renewable-energy.62c3ed7b.jpg": "/my-curriculum/static/media/renewable-energy.62c3ed7b.jpg",
-    "static/media/skill-icon.10820eda.png": "/my-curriculum/static/media/skill-icon.10820eda.png",
+    "static/media/skill-icon.6677388b.png": "/my-curriculum/static/media/skill-icon.6677388b.png",
     "static/media/smart-grids.4df0aa53.png": "/my-curriculum/static/media/smart-grids.4df0aa53.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b822b28.js",
-    "static/js/2.366c1c8c.chunk.js",
-    "static/css/main.8a54a050.chunk.css",
-    "static/js/main.3150fe13.chunk.js"
+    "static/js/runtime-main.1233fc4e.js",
+    "static/js/2.0237b99e.chunk.js",
+    "static/css/main.02cdc868.chunk.css",
+    "static/js/main.786a0dfb.chunk.js"
   ]
 }
