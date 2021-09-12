@@ -17,7 +17,6 @@ const New = () => {
     const [imageHeight, setImageHeight] = useState(false);
     const [isMobile, setIsMobile] = useState(true)
 
-
     const refAbout = useRef(null)
     const refBasicInfo = useRef(null)
     const refInterests = useRef(null)
@@ -59,7 +58,6 @@ const New = () => {
     const getImageHeight = (height) => {
         setImageHeight(height)
     }
-
     useEffect(()=>{
         window.addEventListener("resize", handleResize)
         if (!imageHeight){
@@ -71,20 +69,25 @@ const New = () => {
         }else if(isMobile >720){
             setImageHeight(270)
         }
-    },[window.innerWidth])
+    })
 
-    useEffect(()=>{
-        window.addEventListener("resize", handleResize)
-        if (!imageHeight){
-            setImageHeight(430)
-        }
+    // useEffect(()=>{
+
+    //     window.addEventListener("resize", handleResize)
+    //     if (!imageHeight){
+    //         setImageHeight(430)
+    //     }
         
-        if( isMobile > 1100){
-            setImageHeight(430)
-        }else if(isMobile >720){
-            setImageHeight(270)
-        }
-    },[])
+    //     if( isMobile > 1100){
+    //         setImageHeight(430)
+    //     }else if(isMobile >720){
+    //         setImageHeight(270)
+    //     }
+
+
+    // },[ window.innerWidth])
+
+    
 
     return (
         <div style={{overflowX:"hidden"}}>
