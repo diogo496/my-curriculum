@@ -17,7 +17,6 @@ const New = () => {
     const [imageHeight, setImageHeight] = useState(false);
     const [isMobile, setIsMobile] = useState(true)
 
-    const myRef = useRef(null)
 
     const refAbout = useRef(null)
     const refBasicInfo = useRef(null)
@@ -54,13 +53,11 @@ const New = () => {
                 setImageHeight(270)
             }
         }
-        console.log("innerWidth=>",window.innerWidth)
         
     }
 
     const getImageHeight = (height) => {
         setImageHeight(height)
-        console.log("height in home page =>",height)
     }
 
     useEffect(()=>{
@@ -68,7 +65,6 @@ const New = () => {
         if (!imageHeight){
             setImageHeight(430)
         }
-        console.log("isMobile=>",isMobile)
         
         if( isMobile > 1100){
             setImageHeight(430)
@@ -82,14 +78,13 @@ const New = () => {
         if (!imageHeight){
             setImageHeight(430)
         }
-        console.log("isMobile=>",isMobile)
         
         if( isMobile > 1100){
             setImageHeight(430)
         }else if(isMobile >720){
             setImageHeight(270)
         }
-    })
+    },[])
 
     return (
         <div style={{overflowX:"hidden"}}>
@@ -104,7 +99,7 @@ const New = () => {
                 <div className="MenuItem" onClick={executeScrollAbout}>
                     {   window.innerWidth > 720 
                         ? 
-                        <span> {TEXT[1][language].text} {console.log("cucu")}</span> 
+                        <span> {TEXT[1][language].text} </span> 
                         : 
                         <MdPerson size={"35px"} style={{ verticalAlign:"middle"}}/>
                     }

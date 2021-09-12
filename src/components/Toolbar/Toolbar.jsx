@@ -1,7 +1,6 @@
 import React, {useEffect, useState, useRef} from 'react'
 import './Toolbar.css'
 import image from '../../assets/foto1.png'
-import WELCOME_DATA from '../Welcome.json';
 import TEXT from '../Text.json'
 
 const Toolbar = (props) => {

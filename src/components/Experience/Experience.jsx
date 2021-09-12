@@ -1,6 +1,5 @@
 import React, {useState, useEffect, useRef} from 'react';
 import './Experience.css';
-import WELCOME_DATA from '../Welcome.json';
 import TEXT from '../Text.json';
 import {FaReact} from 'react-icons/fa'
 
@@ -10,7 +9,6 @@ const Experience = (props, ref) => {
     const [cardTwo, setCardTwo] = useState(false);
     const [cardThree, setCardThree] = useState(false);
     const [cardFour, setCardFour] = useState(false);
-    const [timeLineHeight, setTimeLineHeight] = useState(false);
     const [classNameLeft, setClassNameLeft] = useState(false);
     const [classNameRight, setClassNameRight] = useState(false);
     const [marginLeft, setMarginLeft] = useState('50%')

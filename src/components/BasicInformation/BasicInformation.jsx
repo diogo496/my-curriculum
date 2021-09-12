@@ -21,10 +21,8 @@ const BasicInformation = (props, ref) => {
     }
 
     useEffect(() => {
-        console.log(window.scrollY)
-        console.log("cucu")
+        // console.log(window.scrollY)
         const height = heightRef.current.offsetHeight
-        console.log("height=>",height)
       },[]);
 
     return (

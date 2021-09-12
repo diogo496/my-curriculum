@@ -1,5 +1,4 @@
 import './App.css';
-import HomePage from './pages/HomePage';
 import New from './pages/New/New'
 function App() {
   return (
