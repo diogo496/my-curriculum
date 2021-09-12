@@ -13,7 +13,7 @@ import experienceIcon from '../../assets/experience-icon.png'
 
 const New = () => {
 
-    const [language,setLanguage] = useState(0)
+    const [language,setLanguage] = useState(1)
     const [imageHeight, setImageHeight] = useState(false);
     const [isMobile, setIsMobile] = useState(true)
 
