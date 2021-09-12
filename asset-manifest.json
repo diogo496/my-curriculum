@@ -1,29 +1,30 @@
 {
   "files": {
     "main.css": "/my-curriculum/static/css/main.e4ddeba4.chunk.css",
-    "main.js": "/my-curriculum/static/js/main.37cbe641.chunk.js",
-    "main.js.map": "/my-curriculum/static/js/main.37cbe641.chunk.js.map",
-    "runtime-main.js": "/my-curriculum/static/js/runtime-main.6b4376a4.js",
-    "runtime-main.js.map": "/my-curriculum/static/js/runtime-main.6b4376a4.js.map",
-    "static/js/2.0870cfe1.chunk.js": "/my-curriculum/static/js/2.0870cfe1.chunk.js",
-    "static/js/2.0870cfe1.chunk.js.map": "/my-curriculum/static/js/2.0870cfe1.chunk.js.map",
-    "static/js/3.efd7fa3b.chunk.js": "/my-curriculum/static/js/3.efd7fa3b.chunk.js",
-    "static/js/3.efd7fa3b.chunk.js.map": "/my-curriculum/static/js/3.efd7fa3b.chunk.js.map",
+    "main.js": "/my-curriculum/static/js/main.b98746af.chunk.js",
+    "main.js.map": "/my-curriculum/static/js/main.b98746af.chunk.js.map",
+    "runtime-main.js": "/my-curriculum/static/js/runtime-main.6b822b28.js",
+    "runtime-main.js.map": "/my-curriculum/static/js/runtime-main.6b822b28.js.map",
+    "static/js/2.366c1c8c.chunk.js": "/my-curriculum/static/js/2.366c1c8c.chunk.js",
+    "static/js/2.366c1c8c.chunk.js.map": "/my-curriculum/static/js/2.366c1c8c.chunk.js.map",
+    "static/js/3.df7ae698.chunk.js": "/my-curriculum/static/js/3.df7ae698.chunk.js",
+    "static/js/3.df7ae698.chunk.js.map": "/my-curriculum/static/js/3.df7ae698.chunk.js.map",
     "index.html": "/my-curriculum/index.html",
     "static/css/main.e4ddeba4.chunk.css.map": "/my-curriculum/static/css/main.e4ddeba4.chunk.css.map",
-    "static/js/2.0870cfe1.chunk.js.LICENSE.txt": "/my-curriculum/static/js/2.0870cfe1.chunk.js.LICENSE.txt",
+    "static/js/2.366c1c8c.chunk.js.LICENSE.txt": "/my-curriculum/static/js/2.366c1c8c.chunk.js.LICENSE.txt",
     "static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_ENG.5308e0c7.pdf",
     "static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf": "/my-curriculum/static/media/DiogoReis_CV_2021_PORT.b81e8b12.pdf",
     "static/media/englishFlag.9a270616.png": "/my-curriculum/static/media/englishFlag.9a270616.png",
     "static/media/foto1.3d21a4e9.png": "/my-curriculum/static/media/foto1.3d21a4e9.png",
     "static/media/portugueseFlag.da29acac.png": "/my-curriculum/static/media/portugueseFlag.da29acac.png",
     "static/media/renewable-energy.62c3ed7b.jpg": "/my-curriculum/static/media/renewable-energy.62c3ed7b.jpg",
+    "static/media/skill-icon.10820eda.png": "/my-curriculum/static/media/skill-icon.10820eda.png",
     "static/media/smart-grids.4df0aa53.png": "/my-curriculum/static/media/smart-grids.4df0aa53.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.6b4376a4.js",
-    "static/js/2.0870cfe1.chunk.js",
+    "static/js/runtime-main.6b822b28.js",
+    "static/js/2.366c1c8c.chunk.js",
     "static/css/main.e4ddeba4.chunk.css",
-    "static/js/main.37cbe641.chunk.js"
+    "static/js/main.b98746af.chunk.js"
   ]
 }
