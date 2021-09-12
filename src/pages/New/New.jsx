@@ -77,6 +77,20 @@ const New = () => {
         }
     },[window.innerWidth])
 
+    useEffect(()=>{
+        window.addEventListener("resize", handleResize)
+        if (!imageHeight){
+            setImageHeight(430)
+        }
+        console.log("isMobile=>",isMobile)
+        
+        if( isMobile > 1100){
+            setImageHeight(430)
+        }else if(isMobile >720){
+            setImageHeight(270)
+        }
+    })
+
     return (
         <div style={{overflowX:"hidden"}}>
             <div className="selectLanguageToolBar">
